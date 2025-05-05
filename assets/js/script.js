@@ -6,3 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Форма отправлена!');
     });
 });
+document.querySelector('.sidebar').addEventListener('click', function() {
+    this.classList.toggle('show');
+});
