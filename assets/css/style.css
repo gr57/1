@@ -1,3 +1,12 @@
+:root {
+    /* Variables CSS para mayor flexibilidad */
+    --sidebar-width: 250px; /* Ancho inicial de la barra lateral */
+    --sidebar-bg-color: lightgray; /* Color de fondo */
+    --sidebar-link-color: white; /* Color de los enlaces */
+    --sidebar-link-hover-color: #007BFF; /* Color al pasar el ratón sobre los enlaces */
+    --font-family: Arial, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +14,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-family);
     background-color: #f9f9f9;
     height: 100%;
     margin: 0;
@@ -49,7 +58,6 @@ nav ul li a {
     padding: 10px 20px;
     height: 100%;
 }
-
 
 footer {
     background-color: #333;
@@ -104,31 +112,42 @@ footer {
     background-color: #0056b3;
 }
 
-
-
-.content {
-    padding: 20px;
-    margin-right: 220px; /* Adjust to make space for the sidebar */
-}
-
+/* Sidebar ajustable */
 .sidebar {
-    position: fixed; /* Hace que el aside se quede fijo al hacer scroll */
-    top-margin: 10px; /* Lo coloca 100px desde la parte superior de la ventana */
-    right: 0; /* Lo coloca en el lado derecho de la ventana */
-    width: 50px; /* Ajusta el ancho según lo desees */
-    background-color: lightgray; /* Color de fondo */
-    padding: 15px; /* Espaciado interno */
-    z-index: 100; /* Asegura que el aside esté por encima de otros elementos */
+    position: fixed;
+    top: 10px;
+    right: 0;
+    width: var(--sidebar-width); /* Usa la variable para el ancho */
+    background-color: var(--sidebar-bg-color);
+    padding: 15px;
+    z-index: 100;
+    transition: width 0.3s ease; /* Suaviza el cambio de tamaño */
 }
 
+.sidebar:hover {
+    width: 300px; /* Aumenta el tamaño cuando el usuario pasa el ratón */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 .sidebar ul li {
-    margin: 10px 50px;
+    margin: 10px 0;
 }
 
 .sidebar ul li a {
-    color: white;
+    color: var(--sidebar-link-color);
     text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: var(--sidebar-link-hover-color); /* Cambio de color al pasar el ratón */
 }
 
 footer {
@@ -138,3 +157,21 @@ footer {
     padding: 1rem;
     width: 100%;
 }
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0;
+        right: -250px; /* Esconde la barra lateral en pantallas pequeñas */
+    }
+
+    .sidebar.show {
+        width: 250px;
+        right: 0;
+    }
+
+    .sidebar ul li {
+        text-align: center;
+    }
+}
+
