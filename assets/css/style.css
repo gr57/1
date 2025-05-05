@@ -113,7 +113,7 @@ footer {
 
 .sidebar {
     position: fixed; /* Hace que el aside se quede fijo al hacer scroll */
-    top: 100px; /* Lo coloca 100px desde la parte superior de la ventana */
+    top-margin: 10px; /* Lo coloca 100px desde la parte superior de la ventana */
     right: 0; /* Lo coloca en el lado derecho de la ventana */
     width: 200px; /* Ajusta el ancho según lo desees */
     background-color: lightgray; /* Color de fondo */
