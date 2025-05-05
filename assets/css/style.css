@@ -115,10 +115,10 @@ footer {
     position: fixed; /* Hace que el aside se quede fijo al hacer scroll */
     top-margin: 10px; /* Lo coloca 100px desde la parte superior de la ventana */
     right: 0; /* Lo coloca en el lado derecho de la ventana */
-    width: 200px; /* Ajusta el ancho según lo desees */
+    width: 50px; /* Ajusta el ancho según lo desees */
     background-color: lightgray; /* Color de fondo */
-    padding: 20px; /* Espaciado interno */
-    z-index: 1000; /* Asegura que el aside esté por encima de otros elementos */
+    padding: 15px; /* Espaciado interno */
+    z-index: 100; /* Asegura que el aside esté por encima de otros elementos */
 }
 
 
