@@ -176,6 +176,10 @@ footer {
     padding: 1rem;
     width: 100%;
 }
+.logo{
+    width:10px
+    height:10px
+}
 
 /* Diseño responsive */
 @media (max-width: 768px) {
