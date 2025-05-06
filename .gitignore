@@ -1,0 +1,24 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE or text editor files
+.idea/
+.vscode/
+
+# npm files and node_modules (if using Node.js or npm for builds)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Build files
+dist/
+build/
+
+# Configuration and log files
+*.log
+*.bak
+*.swp
+
+# Miscellaneous
+*.env
