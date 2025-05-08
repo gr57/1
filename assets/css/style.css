@@ -179,6 +179,7 @@ footer {
 .logo{
     width:2px
     height:2px
+    object-fit: contain;
 }
 
 /* Diseño responsive */
