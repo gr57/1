@@ -180,6 +180,10 @@ footer {
     width:50px;
     height: auto;
 }
+img{
+    width:50px;
+    height: auto;
+}
 
 /* Diseño responsive */
 @media (max-width: 768px) {
