@@ -177,8 +177,8 @@ footer {
     width: 100%;
 }
 .logo{
-    width:2px
-    height:2px
+    width:2px;
+    height:2px;
     object-fit: contain;
 }
 
