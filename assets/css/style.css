@@ -190,7 +190,7 @@ footer {
 
     .sidebar.show {
         width: 250px;
-        right: 500px;
+        right: 0;
     }
 
     .sidebar ul li {
