@@ -186,6 +186,10 @@ img{
     height: auto;
 }
 
+p{
+    padding: 20px;
+    margin: 10px;
+}
 @media (max-width: 768px) {
     .right-sidebar {
         width: 200px;
