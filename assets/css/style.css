@@ -17,7 +17,7 @@ body {
     font-family: var(--font-family);
     background-color: #f9f9f9;
     height: 100%;
-    margin: 0;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     padding: 20px
