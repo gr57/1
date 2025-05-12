@@ -131,7 +131,8 @@ footer {
     width: 250px;
     padding: 20px;
     position: fixed;
-    top: 30px;
+    top: 0;
+    margin-pot: 50px;
     right:0;
     height: 500px;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
