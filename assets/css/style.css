@@ -185,17 +185,18 @@ img{
     height: auto;
 }
 
-/* Diseño responsive */
 @media (max-width: 768px) {
-    .sidebar {
-        width: 0;
-        right: -250px; /* Esconde la barra lateral en pantallas pequeñas */
+    .right-sidebar {
+        width: 200px;
+        right: -200px;  /* Esconde el aside en pantallas pequeñas */
+        transition: right 0.3s ease;
     }
 
-    .sidebar.show {
-        width: 250px;
-        right: 0;
+    .right-sidebar.show {
+        right: 0;  /* Muestra el aside cuando tiene la clase 'show' */
     }
+}
+
 
     .sidebar ul li {
         text-align: center;
