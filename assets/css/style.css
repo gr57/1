@@ -132,7 +132,7 @@ footer {
     padding: 20px;
     position: fixed;
     top: 0;
-    right:70px;
+    right:0;
     height: 500px;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
 }
