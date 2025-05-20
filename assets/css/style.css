@@ -26,10 +26,7 @@ body {
 main {
     padding-bottom: 50%;
 }
-.hero img{
-      width: 50px; /* Tamaño de la imagen, ajusta como necesites */
-    height: auto;
-}
+
 header {
     background-color: #333;
     color: white;
@@ -212,5 +209,9 @@ main p{
     .sidebar ul li {
         text-align: center;
     }
+}
+.hero img{
+      width: 50px; /* Tamaño de la imagen, ajusta como necesites */
+    height: auto;
 }
 
