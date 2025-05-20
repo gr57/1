@@ -198,18 +198,15 @@ main p{
         width: 200px;
         right: -200px;  /* Esconde el aside en pantallas pequeñas */
         transition: right 0.3s ease;
-    }
+}
 
     .right-sidebar.show {
         right: 0;  /* Muestra el aside cuando tiene la clase 'show' */
-    }
-}
-
-
-    .sidebar ul li {
+}   
+.sidebar ul li {
         text-align: center;
-    }
 }
+
 .hero img{
       width: 50px; /* Tamaño de la imagen, ajusta como necesites */
     height: auto;
