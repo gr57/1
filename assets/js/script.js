@@ -1,9 +1,8 @@
-// Простой пример для добавления интерактивности
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('form');
     form.addEventListener('submit', function(event) {
         event.preventDefault();
-        alert('Форма отправлена!');
+        alert('Formulario enviado!');
     });
 });
 document.querySelector('.sidebar').addEventListener('click', function() {
