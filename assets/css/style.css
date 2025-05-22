@@ -1,6 +1,6 @@
 :root {
     /* Variables CSS para mayor flexibilidad */
-    --sidebar-width: 250px; /* Ancho inicial de la barra lateral */
+    --sidebar-width: 200px; /* Ancho inicial de la barra lateral */
     --sidebar-bg-color: lightgray; /* Color de fondo */
     --sidebar-link-color: white; /* Color de los enlaces */
     --sidebar-link-hover-color: #007BFF; /* Color al pasar el ratón sobre los enlaces */
