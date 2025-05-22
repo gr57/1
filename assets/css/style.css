@@ -192,7 +192,7 @@ main p{
     padding: 20px;
     margin: 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .right-sidebar {
         width: 200px;
         right: -200px;  /* Esconde el aside en pantallas pequeñas */
