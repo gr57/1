@@ -57,6 +57,7 @@ nav ul li a {
     align-items: center;
     padding: 10px 20px;
     height: 100%;
+    margin: 15px;
 }
 nav:hover{
     background-color: #333;
