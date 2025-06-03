@@ -186,6 +186,7 @@ footer {
 .logo{
     width: 150px;
     height: auto;
+    margin-left: 150px; 
     
 }
 img{
