@@ -184,7 +184,7 @@ footer {
     width: 100%;
 }
 .logo{
-    position: fixed;
+    display: flex;
     width: 150px;
     height: auto;
     margin-left: 150px; 
