@@ -76,7 +76,7 @@ footer {
     padding: 20px 20px;
     background-color: #007BFF;
     color: white;
-    display: block;
+    display: flex;
 }
 
 .about-preview, .about, .contact-form {
