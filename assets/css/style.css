@@ -99,6 +99,9 @@ footer {
     height: auto;
     border-radius: 8px; /* Opcional, bordes redondeados */
 }
+h2.hindex{
+    text-align: center;
+}
 
 .about-preview, .about, .contact-form {
     padding: 20px;
@@ -114,6 +117,7 @@ footer {
 
 .pindex{
     margin-right: 300px;
+    text-align: justify;
 }
 .contact-form label {
     display: block;
