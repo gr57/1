@@ -79,6 +79,27 @@ footer {
     display: flex;
 }
 
+.hero {
+    text-align: left; /* Cambia el texto para que se alinee a la izquierda */
+    justify-content: space-between; /* Separa el texto y la imagen */
+    align-items: center; /* Centra verticalmente */
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+}
+
+.hero .hero-text {
+    flex: 1; /* Que el texto ocupe el espacio disponible */
+    margin-right: 20px; /* Espacio entre texto e imagen */
+}
+
+.hero img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px; /* Opcional, bordes redondeados */
+}
+
 .about-preview, .about, .contact-form {
     padding: 20px;
     margin: 20px;
