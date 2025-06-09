@@ -263,5 +263,5 @@ main p{
   background-image: url('img/img1.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.3;
+  opacity: 0.5;
   z-index: -1;
