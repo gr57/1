@@ -255,9 +255,3 @@ main p{
 .title{
     display: block;
 }
-.bindex::before{
-  background-image: url('../img/img1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;  
-}
