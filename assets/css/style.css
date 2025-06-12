@@ -100,7 +100,9 @@ footer {
     height: auto;
     border-radius: 8px; /* Opcional, bordes redondeados */
 }
-
+h1.title{
+    font-size: 75px:
+}
 h2.hindex{
     text-align: center;
     margin-top: 50px;
