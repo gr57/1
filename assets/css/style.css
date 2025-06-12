@@ -126,6 +126,7 @@ ol{
 .pindex{
     margin-right: 300px;
     text-align: justify;
+    line-height: 20px;
 }
 .contact-form label {
     display: block;
@@ -232,7 +233,9 @@ footer {
 img{
     width:50px;
     height: auto;
-    
+p{
+    line-height: 20px;
+}
 }
 
 main p{
