@@ -23,8 +23,11 @@ body {
 }
 
 main {
-    background-image: url(../img/img8.jpg)
-    
+    background-image: url(../img/img8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
 }
 
 header {
