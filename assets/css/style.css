@@ -237,11 +237,13 @@ footer {
 img{
     width:50px;
     height: auto;
+}
 p{
     line-height: 20px;
 }
+p.subtitle{
+    font-size: xxx-large;
 }
-
 main p{
     padding: 20px;
     margin: 10px;
