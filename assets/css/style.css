@@ -25,9 +25,10 @@ body {
 main{
     position: relative;
     z-index: 1;
-    height: 100%;
     padding: 10px;
     box-sizing: border-box;
+    flex-grow: 1;
+    min-height: 0;
 }
 main::before{
     background-image: url(../img/img8.jpg);
