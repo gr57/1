@@ -51,9 +51,15 @@ header {
 
 /* Nav */
 nav {
-    background-color: #333;
-    margin-top: 10px;
+  background-color: #333; /* Fondo fijo para que se vea siempre */
+  position: relative;
+  z-index: 10;
 }
+
+nav:hover {
+  background-color: #444; /* Fondo cambia ligeramente al pasar el ratón */
+}
+
 
 nav ul {
     display: flex;
