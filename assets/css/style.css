@@ -24,7 +24,7 @@ body {
 main{
     position: relative;
     z-index: 1;
-    min-height: 100vh;
+    height: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
