@@ -15,7 +15,7 @@
 body {
     font-family: var(--font-family);
     height: 100%;
-    margin: 10px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     padding: 20px
@@ -24,6 +24,7 @@ main{
     postion: relative;
     z-index: 1;
     min-height: 100vh;
+    padding: 10px;
 }
 main::before{
     background-image: url(../img/img8.jpg);
