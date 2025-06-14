@@ -14,7 +14,6 @@
 
 body {
     font-family: var(--font-family);
-    background-color: #f9f9f9;
     height: 100%;
     margin: 10px;
     display: flex;
@@ -30,6 +29,8 @@ main::before {
     opacity: 0.2;
     position: fixed;
     content: "";
+    width: 100%;
+    height:100%
 }
 
 header {
