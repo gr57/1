@@ -48,6 +48,7 @@ header {
     color: white;
     padding: 1rem;
     min-height: 150px;
+    z-index: 10;
 }
 
 nav ul {
