@@ -22,7 +22,7 @@ body {
     padding: 20px
 }
 
-main {
+main::before {
     background-image: url(../img/img8.jpg);
     background-size: cover;
     background-repeat: no-repeat;
