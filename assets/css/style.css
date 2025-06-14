@@ -23,6 +23,7 @@ body {
 main{
     postion: relative;
     z-index: 1;
+    min-height: 100vh;
 }
 main::before{
     background-image: url(../img/img8.jpg);
