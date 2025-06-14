@@ -244,6 +244,7 @@ p {
 
 p.subtitle {
     font-size: xxx-large;
+    line-height:1;
 }
 
 main p {
